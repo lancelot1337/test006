@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test006"
+  description: "this is the description for test006 service"
+  annotations:
+    github.com/project-slug: lancelot1337/test006
+    backstage.io/techdocs-ref: url:https://github.com/lancelot1337/test006
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "lancelot"
